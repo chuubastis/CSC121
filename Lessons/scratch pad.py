@@ -1,3 +1,3 @@
-list1 = [[2, 7, 1], [8, 5, 6]]
-print(list1[1])
-print(list1[1][1])
+strings = ["some", "example", "words", "that", "i", "am", "fond", "of"]
+
+print(min(strings, key=len))
